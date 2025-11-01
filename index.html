@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriTech Portal - Empowering Farmers with Smart Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-leaf"></i>
+                <span>AgriTech Portal</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="innovations.html">Innovations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Empowering Farmers with Smart Technology</h1>
+            <p class="hero-subtitle animate-fade-in-delay">Transforming agriculture through innovation, sustainability, and cutting-edge solutions</p>
+            <div class="hero-buttons animate-fade-in-delay-2">
+                <a href="innovations.html" class="btn btn-primary">
+                    <span>Explore Innovations</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="about.html" class="btn btn-secondary">
+                    <span>Learn More</span>
+                    <i class="fas fa-info-circle"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Weather Widget -->
+    <section class="weather-section">
+        <div class="container">
+            <div class="weather-widget" id="weatherWidget">
+                <div class="weather-icon">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <div class="weather-info">
+                    <h3 class="weather-location">Current Weather</h3>
+                    <div class="weather-temp">
+                        <span class="temp-value" id="temperature">28</span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                </div>
+                <div class="weather-details">
+                    <div class="weather-detail">
+                        <i class="fas fa-tint"></i>
+                        <span>Humidity: <strong id="humidity">65</strong>%</span>
+                    </div>
+                    <div class="weather-detail">
+                        <i class="fas fa-wind"></i>
+                        <span>Wind: <strong id="windSpeed">12</strong> km/h</span>
+                    </div>
+                    <div class="weather-detail">
+                        <i class="fas fa-eye"></i>
+                        <span id="condition">Partly Cloudy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Revolutionizing Agriculture</h2>
+                <p>Discover how modern technology is transforming farming into a smarter, more efficient, and sustainable practice</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-drone"></i>
+                    </div>
+                    <h3>Drone Technology</h3>
+                    <p>Precision agriculture with aerial monitoring, crop spraying, and real-time field analysis</p>
+                    <a href="innovations.html" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <h3>Smart Irrigation</h3>
+                    <p>Automated water management systems that optimize usage and maximize crop yield</p>
+                    <a href="innovations.html" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Soil Monitoring</h3>
+                    <p>Advanced sensors tracking soil health, nutrients, and moisture levels in real-time</p>
+                    <a href="innovations.html" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>AI Predictions</h3>
+                    <p>Machine learning algorithms for crop selection, yield forecasting, and disease prevention</p>
+                    <a href="innovations.html" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="40">0</div>
+                    <div class="stat-label">% Water Savings</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="35">0</div>
+                    <div class="stat-label">% Yield Increase</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">% Cost Reduction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="60">0</div>
+                    <div class="stat-label">% Time Efficiency</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Farm?</h2>
+                <p>Join thousands of farmers who have already embraced smart agriculture technology</p>
+                <a href="contact.html" class="btn btn-large btn-primary">
+                    <span>Get Started Today</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-leaf"></i> AgriTech Portal</h3>
+                    <p>Empowering farmers with smart technology for a sustainable future</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="innovations.html">Innovations</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li><a href="innovations.html">Drone Farming</a></li>
+                            <li><a href="innovations.html">Smart Irrigation</a></li>
+                            <li><a href="innovations.html">Soil Monitoring</a></li>
+                            <li><a href="innovations.html">AI Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AgriTech Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
