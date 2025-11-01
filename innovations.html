@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovations - AgriTech Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-leaf"></i>
+                <span>AgriTech Portal</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="innovations.html" class="active">Innovations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Agricultural Innovations</h1>
+            <p>Explore cutting-edge technologies transforming modern farming</p>
+        </div>
+    </section>
+
+    <!-- Drone Farming Section -->
+    <section class="innovation-section">
+        <div class="container">
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <div class="innovation-badge">
+                        <i class="fas fa-drone"></i>
+                        <span>Drone Technology</span>
+                    </div>
+                    <h2>Precision Drone Farming</h2>
+                    <p>Unmanned Aerial Vehicles (UAVs) are revolutionizing agriculture by providing farmers with real-time aerial insights. Drones equipped with multispectral cameras can identify crop health issues, monitor growth patterns, and even spray pesticides with pinpoint accuracy.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Aerial crop monitoring and surveillance</li>
+                        <li><i class="fas fa-check-circle"></i> Precision spraying reduces chemical usage by 30%</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time field mapping and analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Early disease and pest detection</li>
+                    </ul>
+                    <div class="innovation-animation">
+                        <div class="drone-container">
+                            <i class="fas fa-drone drone-fly"></i>
+                            <div class="scan-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-visual">
+                    <div class="visual-placeholder drone-visual">
+                        <i class="fas fa-drone"></i>
+                        <p>Drone Technology in Action</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Automated Irrigation Section -->
+    <section class="innovation-section alt">
+        <div class="container">
+            <div class="innovation-content reverse">
+                <div class="innovation-visual">
+                    <div class="visual-placeholder irrigation-visual">
+                        <i class="fas fa-droplet"></i>
+                        <p>Smart Irrigation System</p>
+                        <div class="water-animation">
+                            <div class="water-drop"></div>
+                            <div class="water-drop"></div>
+                            <div class="water-drop"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-text">
+                    <div class="innovation-badge">
+                        <i class="fas fa-droplet"></i>
+                        <span>Smart Irrigation</span>
+                    </div>
+                    <h2>Automated Irrigation Systems</h2>
+                    <p>Smart irrigation systems use IoT sensors and weather data to deliver the precise amount of water your crops need. These systems monitor soil moisture, temperature, and weather forecasts to optimize watering schedules automatically.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> 40% reduction in water consumption</li>
+                        <li><i class="fas fa-check-circle"></i> Soil moisture sensors for real-time monitoring</li>
+                        <li><i class="fas fa-check-circle"></i> Weather-based automatic scheduling</li>
+                        <li><i class="fas fa-check-circle"></i> Mobile app control and notifications</li>
+                    </ul>
+                    <div class="efficiency-bars">
+                        <div class="efficiency-bar">
+                            <span>Water Efficiency</span>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="85"></div>
+                                <span class="bar-label">85%</span>
+                            </div>
+                        </div>
+                        <div class="efficiency-bar">
+                            <span>Cost Savings</span>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="70"></div>
+                                <span class="bar-label">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soil Health Monitoring Section -->
+    <section class="innovation-section">
+        <div class="container">
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <div class="innovation-badge">
+                        <i class="fas fa-seedling"></i>
+                        <span>Soil Monitoring</span>
+                    </div>
+                    <h2>Soil Health Monitoring Tools</h2>
+                    <p>Advanced sensors continuously track soil conditions including pH levels, nutrient content, moisture, and temperature. This data helps farmers make informed decisions about fertilization, irrigation, and crop rotation.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Real-time nutrient level tracking</li>
+                        <li><i class="fas fa-check-circle"></i> pH and moisture monitoring</li>
+                        <li><i class="fas fa-check-circle"></i> Automated fertilizer recommendations</li>
+                        <li><i class="fas fa-check-circle"></i> Historical data analysis and trends</li>
+                    </ul>
+                </div>
+                <div class="innovation-visual">
+                    <div class="chart-container">
+                        <canvas id="soilChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Crop Prediction Section -->
+    <section class="ai-prediction-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="innovation-badge center">
+                    <i class="fas fa-microchip"></i>
+                    <span>AI Technology</span>
+                </div>
+                <h2>AI-Based Crop Prediction</h2>
+                <p>Use artificial intelligence to determine the best crops for your soil and climate conditions</p>
+            </div>
+            <div class="prediction-tool">
+                <div class="prediction-form">
+                    <div class="form-group">
+                        <label for="soilType">
+                            <i class="fas fa-layer-group"></i>
+                            Soil Type
+                        </label>
+                        <select id="soilType" class="form-input">
+                            <option value="">Select soil type...</option>
+                            <option value="loamy">Loamy Soil</option>
+                            <option value="sandy">Sandy Soil</option>
+                            <option value="clay">Clay Soil</option>
+                            <option value="silt">Silt Soil</option>
+                            <option value="peaty">Peaty Soil</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="rainfall">
+                            <i class="fas fa-cloud-rain"></i>
+                            Average Annual Rainfall (mm)
+                        </label>
+                        <input type="number" id="rainfall" class="form-input" placeholder="e.g., 800" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="temperature">
+                            <i class="fas fa-temperature-half"></i>
+                            Average Temperature (°C)
+                        </label>
+                        <input type="number" id="temperature" class="form-input" placeholder="e.g., 25" min="-20" max="50">
+                    </div>
+                    <button onclick="suggestCrops()" class="btn btn-primary btn-block">
+                        <span>Get Crop Suggestions</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="prediction-result" id="predictionResult">
+                    <div class="result-placeholder">
+                        <i class="fas fa-seedling"></i>
+                        <p>Enter your data to get crop recommendations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology Impact</h2>
+                <p>See how these innovations are transforming agricultural productivity</p>
+            </div>
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <h3>Water Usage Efficiency</h3>
+                    <canvas id="waterChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Crop Yield Improvements</h3>
+                    <canvas id="yieldChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-leaf"></i> AgriTech Portal</h3>
+                    <p>Empowering farmers with smart technology for a sustainable future</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="innovations.html">Innovations</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li><a href="innovations.html">Drone Farming</a></li>
+                            <li><a href="innovations.html">Smart Irrigation</a></li>
+                            <li><a href="innovations.html">Soil Monitoring</a></li>
+                            <li><a href="innovations.html">AI Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AgriTech Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
